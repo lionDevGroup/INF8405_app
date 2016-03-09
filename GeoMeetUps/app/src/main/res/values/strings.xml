@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GeoMeetUps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="t_title">GeoMeetUps</string>
+    <string name="b_profile">Profile</string>
+    <string name="btn_profile">Profile</string>
+    <string name="text_title">GeoMeetUps</string>
+    <string name="btn_location">Location</string>
+    <string name="btn_meetup">MeetUp</string>
+    <string name="btn_save">Save</string>
+</resources>

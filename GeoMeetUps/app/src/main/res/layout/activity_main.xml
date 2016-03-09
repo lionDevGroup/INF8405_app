@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="lion.geomeetups.MainActivity"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_profile"
+        android:id="@+id/btn_profile"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_title"
+        android:id="@+id/text_title"
+        android:layout_above="@+id/btn_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_location"
+        android:id="@+id/btn_location"
+        android:layout_below="@+id/btn_profile"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_meetup"
+        android:id="@+id/btn_meetup"
+        android:layout_below="@+id/btn_location"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
